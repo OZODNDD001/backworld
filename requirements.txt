@@ -1,0 +1,6 @@
+FastAPI
+uvicorn
+dotenv
+python-multipart
+boto3
+psycopg2
