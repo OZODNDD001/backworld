@@ -76,6 +76,7 @@ def init_db():
 
 
 @app.get("/")
+@app.head("/")
 def root():
     return {"message": "Welcome to the Wallpaper API!"}
 
